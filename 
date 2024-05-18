@@ -1,0 +1,8 @@
+export const testimonials = [
+  {
+    name: "Daniel Clifford",
+    status: "Verified Graduate",
+    tagline:
+      "  I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth. ",
+  },
+];
