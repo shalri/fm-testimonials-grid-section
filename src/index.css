@@ -16,4 +16,9 @@
     @apply bg-tg-violet bg-[url('./images/bg-pattern-quotation.svg')] bg-no-repeat text-tg-white;
     background-position: right 25px top;
   }
+  @media screen and (min-width: 768px) {
+    .purple-card {
+      background-position: right 80px top;
+    }
+  }
 }
