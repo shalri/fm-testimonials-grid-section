@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .dark {
+    @apply text-tg-white;
+  }
+  .light {
+    h3 {
+      @apply font-bold;
+    }
+    @apply bg-tg-white text-tg-gray-blue;
+  }
+  .purple-card {
+    @apply bg-tg-violet bg-[url('./images/bg-pattern-quotation.svg')] bg-no-repeat text-tg-white;
+    background-position: right 25px top;
+  }
+}

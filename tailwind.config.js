@@ -5,24 +5,22 @@ export default {
     extend: {
       colors: {
         // Primary
-        "tg-red": "hsl(0, 78%, 62%)",
-        "tg-cyan": "hsl(180, 62%, 55%)",
-        "tg-orange": "(34, 97%, 64%)",
-        "tg-blue": "hsl(212, 86%, 64%)",
+        "tg-violet": "hsl(263, 55%, 52%)",
+        "tg-gray-blue": "hsl(217, 19%, 35%)",
+        "tg-dark-blue": "hsl(217, 29%, 14%)",
+        "tg-white": "hsl(0, 0%, 100%)",
         // Neutral
-        "tg-dark-blue": "hsl(234, 12%, 34%)",
-        "tg-grayish-blue": "hsl(229, 6%, 66%)",
-        "tg-light-grey": "hsl(0, 0%, 98%)",
+        "tg-light-gray": "hsl(0, 0%, 81%)",
+        "tg-light-grayish-blue": "hsl(210, 46%, 95%)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        barlow: ["Barlow Semi Condensed", "sans-serif"],
       },
       fontSize: {
-        body: "15px",
+        body: "13px",
       },
       fontWeight: {
-        normal: 200,
-        "semi-bold": 400,
+        normal: 500,
         bold: 600,
       },
       screen: {
